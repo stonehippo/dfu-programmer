@@ -46,6 +46,11 @@ Experimental support for ST cortex M4:
 Simple install procedure for Unix/Linux/MAC
 ===========================================
 
+  Note: on MacOS, you may need to install autoconf and automake to get
+  this to work:
+  
+  % brew install autoconf automake
+
   % tar -xzf dfu-programmer-<version>.tar.gz    # unpack the sources
             -- or --
   % git clone https://github.com/dfu-programmer/dfu-programmer.git
